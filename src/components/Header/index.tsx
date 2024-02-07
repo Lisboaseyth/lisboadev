@@ -1,10 +1,8 @@
 import { Flex, Image, Button, IconButton, Menu, MenuButton, MenuList, MenuItem, useMediaQuery } from "@chakra-ui/react";
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
 import Hacker from "../../assets/my logo.png";
-import Brasil from "../../assets/flags/br.png";
-import Usa from "../../assets/flags/usa.png";
 import { useState } from "react";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 import { Link } from 'react-scroll';
 
 export const HeaderComponent = () => {
@@ -17,11 +15,11 @@ export const HeaderComponent = () => {
     setIsOpen(!isOpen);
   };
 
-  const { t, i18n } = useTranslation();
+  // const { t, i18n } = useTranslation();
 
-  const changeLanguage = (language: any) => {
-    i18n.changeLanguage(language);
-  };
+  // const changeLanguage = (language: any) => {
+  //   i18n.changeLanguage(language);
+  // };
 
   return (
     <Flex direction="column" p={8}>

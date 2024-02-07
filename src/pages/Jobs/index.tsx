@@ -1,12 +1,10 @@
-import { Divider, Flex, Text, useMediaQuery } from '@chakra-ui/react'
+import { Divider, Flex, Text } from '@chakra-ui/react'
 import Cartaxo from '../../assets/company/cartaxo.png'
 import Setebit from '../../assets/company/setebit.jpeg'
 import Bmo from '../../assets/company/bmo.jpg'
 import { CardJob } from '../../components/CardJob';
 
 export const MyJobs = ({ id }: any) => {
-
-  const [isMobile] = useMediaQuery("(max-width: 768px)");
 
   return (
     <Flex id={id} direction={'column'} alignItems={'center'} mb={10}>
