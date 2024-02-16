@@ -73,7 +73,7 @@ export const ProjectPageByid = ({ title, type, logo, description, techs, screens
             </SimpleGrid>
           </Box>
         </Box>
-        <Box textAlign={'center'} m={'0 auto'} p={'50px 40px'}>
+        <Box textAlign={'center'} p={'50px 40px'}>
           <Text fontSize={40} color={'white'}>Screenshots</Text>
           <Gallery items={screenshots} />
         </Box>

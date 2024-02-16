@@ -15,19 +15,19 @@ export const AboutMe = ({ id }: any) => {
             <Flex alignItems={'center'} gap={5}>
               <Flex direction={'column'} alignItems="flex-start" mb={4} color="white">
                 <Text fontSize="1rem">
-                  Howdy, my name is
+                  Olá, meu nome é
                 </Text>
-                <Text fontSize="1.5rem" fontWeight={'bold'} color="white" mb={6}>
+                <Text fontSize="2rem" fontWeight={'bold'} color="white" mb={6}>
                   Pedro Lisboa
                 </Text>
                 <Text fontSize="lg" color="white">
-                  Olá! Sou Pedro Lisboa, desenvolvedor fullstack com mais de 3 anos de experiência. Mantenho-me constantemente atualizado com as últimas tecnologias, buscando sempre inovações para os projetos em que estou envolvido. Minha paixão pela programação e dedicação ao aprendizado contínuo me capacitam a criar soluções robustas e integradas. Estou animado para contribuir com minha experiência e habilidades para projetos desafiadores.</Text>
+                  Sou desenvolvedor fullstack com mais de 3 anos de experiência. Mantenho-me constantemente atualizado com as últimas tecnologias, buscando sempre inovações para os projetos em que estou envolvido. Minha paixão pela programação e dedicação ao aprendizado contínuo me capacitam a criar soluções robustas e integradas. Estou animado para contribuir com minha experiência e habilidades para projetos desafiadores.</Text>
               </Flex>
               <Image src={myImage} width={'250px'} borderRadius={'50%'} />
             </Flex>
             <Flex alignItems={'center'} gap={2}>
               <Link href="#contact" color="white" fontWeight="bold" bg={"#006FFF"} p={5} borderRadius={10}>
-                Get in touch <Box as="span" color="white" fontWeight="normal">→</Box>
+                Fale comigo! <Box as="span" color="white" fontWeight="normal">→</Box>
               </Link>
               <Link
                 href="https://github.com/lisboaseyth"
@@ -94,19 +94,19 @@ export const AboutMe = ({ id }: any) => {
               <Image src={myImage} width={'150px'} borderRadius={'50%'} />
               <Flex direction={'column'} alignItems="center" mb={4} color="white">
                 <Text fontSize="1rem">
-                  Howdy, my name is
+                  Olá, meu nome é
                 </Text>
                 <Text fontSize="2rem" fontWeight={'bold'} color="white" mb={6}>
                   Pedro Lisboa
                 </Text>
                 <Text fontSize="lg" color="white" textAlign={'center'}>
-                  Olá! Sou Pedro Lisboa, desenvolvedor fullstack com mais de 3 anos de experiência. Mantenho-me constantemente atualizado com as últimas tecnologias, buscando sempre inovações para os projetos em que estou envolvido. Minha paixão pela programação e dedicação ao aprendizado contínuo me capacitam a criar soluções robustas e integradas. Estou animado para contribuir com minha experiência e habilidades para projetos desafiadores.
+                  Sou desenvolvedor fullstack com mais de 3 anos de experiência. Mantenho-me constantemente atualizado com as últimas tecnologias, buscando sempre inovações para os projetos em que estou envolvido. Minha paixão pela programação e dedicação ao aprendizado contínuo me capacitam a criar soluções robustas e integradas. Estou animado para contribuir com minha experiência e habilidades para projetos desafiadores.
                 </Text>
               </Flex>
             </Flex>
             <Flex direction={'column'} justifyContent={'center'} alignItems={'center'} gap={2}>
               <Link w={'90%'} textAlign={'center'} href="#contact" color="white" fontWeight="bold" bg={"#006FFF"} p={5} borderRadius={10}>
-                Get in touch <Box as="span" color="white" fontWeight="normal">→</Box>
+                Fale comigo! <Box as="span" color="white" fontWeight="normal">→</Box>
               </Link>
               <Flex>
 

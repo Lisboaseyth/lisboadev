@@ -42,3 +42,10 @@ export type Jobs = {
   image: string;
   techs: string[];
 }
+
+export type EmailContact = {
+  name: string;
+  subject: string;
+  email: string;
+  message: string;
+}
